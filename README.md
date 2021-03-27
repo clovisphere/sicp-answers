@@ -4,9 +4,11 @@ Contains solutions to the exercises in [Structure and Interpretation of Computer
 
 ###### Usage
 
-You can use either the [Chez Scheme](https://www.scheme.com/) or [Racket](https://racket-lang.org/) REPL to load (and run) the exercises solutions.
+You can use either the [Chez Scheme](https://www.scheme.com/) or [Racket](https://racket-lang.org/) to run the exercises solutions.
 
-How:
+**How**:
+
+> This illustration loads the content of ch1.scm in the REPL.
 
 (with _chez scheme_)
 
@@ -21,7 +23,8 @@ $ chez
 (with _racket_)
 
 ```console
-$ racket -i -p neil/sicp -l xrepl -f ch1.scm
+$ racket -i -p neil/sicp -l xrepl
+> (load "ch1.scm")
 > (square 2)
 4
 >
